@@ -1,0 +1,106 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden auto;
+}
+
+#header {
+  padding: 2rem 0;
+  color: #335c67;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin-bottom: 2rem;
+  position: fixed;
+  width: 100vw;
+}
+
+.click-these-area {
+  padding: 10rem 0;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  padding-left: 5rem;
+  text-align: center;
+}
+
+img {
+  width: 15rem;
+  height: 16rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding-top: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 5px solid chocolate;
+  cursor: pointer;
+  background-color: aliceblue;
+  transition: all 0.2s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  width: 15rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.5rem 0;
+  border-radius: 3px;
+  margin: 0.5rem auto 1rem auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.it-goes-here-area {
+  padding: 10rem 0;
+}
+
+.it-goes-here-area p {
+  margin-bottom: 1rem;
+}
+
+.it-goes-here-area img:first-child {
+  margin-top: 2rem;
+}
+
+.header {
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  position: fixed;
+  width: 100vw;
+  background-color: chocolate;
+  font-family: "Zen Dots", cursive;
+}
+
+span {
+  background-color: dodgerblue;
+  padding: 0.2rem 0.9rem;
+  color: white;
+  border-radius: 50%;
+}
