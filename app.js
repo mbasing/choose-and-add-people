@@ -10,12 +10,12 @@ app.controller("MovePeopleController",function($scope){
         {"pic":"assets/1.png", "name":"Alexander"},
         {"pic":"assets/2.png", "name":"Amanitore"},
         {"pic":"assets/3.png", "name":"Barbarossa"},
-        {"pic":"assets/4.png", "name":"Chandragupta"},
+        {"pic":"assets/4.png", "name":"Gandhi"},
         {"pic":"assets/5.png", "name":"Cleoptra"},
         {"pic":"assets/6.png", "name":"Cyrus"},
         {"pic":"assets/7.png", "name":"Dido"},
-        {"pic":"assets/8.png", "name":"Gandhi"},
-        {"pic":"assets/9.png", "name":"Moses"},
+        {"pic":"assets/8.png", "name":"Chandragupta"},
+        {"pic":"assets/9.png", "name":"Gilgamesh"},
     ];  
 }); 
 
